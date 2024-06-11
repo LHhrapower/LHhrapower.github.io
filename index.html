@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>hra</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <span style="font-size: 50px; font-weight: bold; color: #215893;">hra</span>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">Datos</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Capacidades</a></li>s
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                            <a href="https://wa.me/5216671367461" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/hramirez12/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                          
+                        
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h3 class="bienvenida">Precentacion</h3>
+                <h3 class="bienvenida"></h3>
+                <h2>hra <br><span>Hugo Ramirez</span></h2>
+                <h5 class="descripcion">Soluciones en sofware</h5>
+                <a href="img/hra.pdf">Descarga CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto2.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Datos generales</p>
+            <h2><span>Hugo Adriel Ramirez Barraza</span> </h2>
+            <h3>Estudiante de programacion</h3>
+            <p>Estudiando en el ITCNM en culiacan </p>
+            <p>Busco aprender mas sobre distintos lenguajes y me interesa en especial diseñar paginas responsivas y buscar mejorar la experiencia de usuario</p>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>AIlustrator</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>3D</li>
+                    <li>Grafico</li>
+                    <li>Detallado</li>
+                </ul>
+                <p>Util para generar y crear diseños aplicables en un proyecto</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Rapido entendimiento</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Profecional</li>
+                    <li>Rapido</li>
+                    <li>Personal</li>
+                </ul>
+                <p>Rapidamente adaptable a cambios de formas metodos de trabajo</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Compromiso al trabajo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Eficaz</li>
+                    <li>Personal</li>
+                    <li>Plazos Fijos</li>
+                </ul>
+                <p>Trabajo con seriedad y compromiso respetando los tiempos asignados y siempre dando el extra de mi trabajo</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python"></i></span>
+                <h4>Python</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Rapido</li>
+                    <li>Entendible</li>
+                  
+                </ul>
+                <p>Entiendo el lenguaje practicamente por completo y puedo leer e interpretar codigos analizando su algoritmo</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Trabajo grupal</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Cooperativo</li>
+                    <li>SCRUM</li>
+                </ul>
+                <p>Tengo facilidad adaptandome a equipos de trabajo y manejo una nocion del marco de gestion de proyectos SCRUM</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Rapido aprendisaje</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Diseño</li>
+                    <li>Logica</li>
+                </ul>
+                <p>Siendo este un campo en el que me gustaria dedicarme y desenvolver mi papel a tiempo completo no tengo problemas con aprender cosas nuevas ni con pulir mis habilidades</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>Recursos</h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Phyton</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>AIlustrator</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="redes">
+                <a href="https://wa.me/5216671367461" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/hramirez12/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+             
+              
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
