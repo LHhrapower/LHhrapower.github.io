@@ -37,7 +37,7 @@ html {
 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: #ccc;
+    color: #cccccc;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -73,10 +73,10 @@ html {
     transition: .5s;
 }
 
-#inicio .contenido header .contenido-header .redes a:hover {
+#inicio .contenido header .contenido-header .redes a.whatsapp:hover {
     color: #24a12c;
 }
-#inicio .contenido header .contenido-header .redes a1:hover {
+#inicio .contenido header .contenido-header .redes a.linkedin:hover {
     color: #0a66c2;
 }
 
@@ -289,7 +289,7 @@ html {
 }
 
 #servicios .fila .servicio:hover {
-    box-shadow: 5px 5px 10px #15205b, -5px -5px 10px #751313;
+    box-shadow: 5px 5px 10px #500eac, -5px -5px 10px #500eac;
 }
 
 #servicios .fila .servicio .icono {
@@ -386,7 +386,7 @@ html {
 }
 
 .contenedor-skills .skill .barra .barra-progreso4 {
-    background-color: #c74917;
+    background-color: #09801b;
     width: 85%;
     height: 6px;
     animation: progreso4 2s forwards;
@@ -406,7 +406,7 @@ html {
         width: 0;
     }
     100% {
-        width: 80%;
+        width: 95%;
     }
 }
 
@@ -424,7 +424,7 @@ html {
         width: 0;
     }
     100% {
-        width: 85%;
+        width: 70%;
     }
 }
 
